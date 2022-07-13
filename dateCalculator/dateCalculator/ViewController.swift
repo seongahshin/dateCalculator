@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var buttonCollection: [UIImageView]!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        dateImageDesign()
     }
 
-
+    // 이미지 디자인
+    func dateImageDesign() {
+        for item in buttonCollection {
+            item.layer.cornerRadius = 20
+        }
+    }
+    
 }
 

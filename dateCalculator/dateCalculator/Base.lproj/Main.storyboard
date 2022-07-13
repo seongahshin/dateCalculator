@@ -28,7 +28,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nT-28-8mX">
                                         <rect key="frame" x="0.0" y="0.0" width="181.5" height="181.5"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Bu-8o-p8r">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hd-wallpaper-g6a3adec19_1920" translatesAutoresizingMaskIntoConstraints="NO" id="7Bu-8o-p8r">
                                                 <rect key="frame" x="0.0" y="0.0" width="181.5" height="181.5"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf1-8w-6PM">
@@ -62,7 +62,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FwU-WA-Rd2">
                                         <rect key="frame" x="192.5" y="0.0" width="181.5" height="181.5"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wqh-0o-2yV">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lemon-g319ab63b8_1920" translatesAutoresizingMaskIntoConstraints="NO" id="Wqh-0o-2yV">
                                                 <rect key="frame" x="0.0" y="0.0" width="181.5" height="181.5"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG7-kb-5J2">
@@ -99,7 +99,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7V-Qa-rH1">
                                         <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XNZ-NB-gcg">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="study-ga63d5bcac_1920" translatesAutoresizingMaskIntoConstraints="NO" id="XNZ-NB-gcg">
                                                 <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-se-G8e">
@@ -131,7 +131,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fR9-SQ-DyD">
                                         <rect key="frame" x="191" y="0.0" width="183" height="183"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fHJ-dX-Zo3">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman-g49ead84c3_1920" translatesAutoresizingMaskIntoConstraints="NO" id="fHJ-dX-Zo3">
                                                 <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knM-Ee-zLd">
@@ -177,6 +177,12 @@
                             <constraint firstItem="fwj-cm-9s6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tt5-FM-fg4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="buttonCollection" destination="7Bu-8o-p8r" collectionClass="NSMutableArray" id="n1Z-gf-7Aj"/>
+                        <outletCollection property="buttonCollection" destination="Wqh-0o-2yV" collectionClass="NSMutableArray" id="aLd-28-bDk"/>
+                        <outletCollection property="buttonCollection" destination="XNZ-NB-gcg" collectionClass="NSMutableArray" id="Pr9-fy-DUe"/>
+                        <outletCollection property="buttonCollection" destination="fHJ-dX-Zo3" collectionClass="NSMutableArray" id="p45-rd-JVj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -184,6 +190,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="hd-wallpaper-g6a3adec19_1920" width="640" height="425.5"/>
+        <image name="lemon-g319ab63b8_1920" width="640" height="568.5"/>
+        <image name="study-ga63d5bcac_1920" width="640" height="450.5"/>
+        <image name="woman-g49ead84c3_1920" width="426.5" height="640"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
