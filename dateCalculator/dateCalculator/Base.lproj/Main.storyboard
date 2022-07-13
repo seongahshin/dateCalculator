@@ -178,6 +178,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="DatePicker" destination="QmD-DF-Zo4" id="e9D-Nz-c3e"/>
                         <outletCollection property="buttonCollection" destination="7Bu-8o-p8r" collectionClass="NSMutableArray" id="n1Z-gf-7Aj"/>
                         <outletCollection property="buttonCollection" destination="Wqh-0o-2yV" collectionClass="NSMutableArray" id="aLd-28-bDk"/>
                         <outletCollection property="buttonCollection" destination="XNZ-NB-gcg" collectionClass="NSMutableArray" id="Pr9-fy-DUe"/>

@@ -11,10 +11,12 @@ class ViewController: UIViewController {
 
     @IBOutlet var buttonCollection: [UIImageView]!
     
+    @IBOutlet weak var DatePicker: UIDatePicker!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dateImageDesign()
         dateImageDesign()
     }
 
@@ -25,5 +27,14 @@ class ViewController: UIViewController {
         }
     }
     
+    func datePickerDesign() {
+        
+        if #available(iOS 14.0, *) {
+            DatePicker.preferredDatePickerStyle = .inline
+        } else {
+            DatePicker.preferredDatePickerStyle = .wheels
+        }
+        
+    }
 }
 
