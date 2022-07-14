@@ -21,6 +21,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="QmD-DF-Zo4" secondAttribute="height" multiplier="2:1" id="MZ7-yb-e1P"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="datePickerAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="m5Q-xc-umW"/>
+                                </connections>
                             </datePicker>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="fwj-cm-9s6">
                                 <rect key="frame" x="20" y="317" width="374" height="181.5"/>
@@ -37,8 +40,8 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi7-7g-bNR">
-                                                <rect key="frame" x="70" y="80.5" width="41.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi7-7g-bNR">
+                                                <rect key="frame" x="91" y="91" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -71,8 +74,8 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJj-47-MQe">
-                                                <rect key="frame" x="70" y="80.5" width="41.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJj-47-MQe">
+                                                <rect key="frame" x="91" y="91" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -102,8 +105,8 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="study-ga63d5bcac_1920" translatesAutoresizingMaskIntoConstraints="NO" id="XNZ-NB-gcg">
                                                 <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-se-G8e">
-                                                <rect key="frame" x="71" y="81.5" width="41.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-se-G8e">
+                                                <rect key="frame" x="91.5" y="91.5" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -134,8 +137,8 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman-g49ead84c3_1920" translatesAutoresizingMaskIntoConstraints="NO" id="fHJ-dX-Zo3">
                                                 <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knM-Ee-zLd">
-                                                <rect key="frame" x="71" y="81.5" width="41.5" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knM-Ee-zLd">
+                                                <rect key="frame" x="91.5" y="91.5" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -179,10 +182,26 @@
                     </view>
                     <connections>
                         <outlet property="DatePicker" destination="QmD-DF-Zo4" id="e9D-Nz-c3e"/>
+                        <outlet property="firstLabel" destination="fi7-7g-bNR" id="xcW-Dn-KcK"/>
+                        <outlet property="firstLabelUp" destination="Sf1-8w-6PM" id="Cf2-t8-fAT"/>
+                        <outlet property="fourthLabel" destination="knM-Ee-zLd" id="f6y-T3-S0T"/>
+                        <outlet property="fourthLabelUp" destination="wRZ-rd-6N1" id="3U6-Sx-KAp"/>
+                        <outlet property="secondLabel" destination="DJj-47-MQe" id="AAt-2T-sai"/>
+                        <outlet property="secondLabelUp" destination="lG7-kb-5J2" id="4ci-0V-3C7"/>
+                        <outlet property="thirdLabel" destination="RO9-se-G8e" id="Fxy-Ea-PKg"/>
+                        <outlet property="thirdLabelUp" destination="6v8-oi-m2X" id="e70-a6-jGa"/>
                         <outletCollection property="buttonCollection" destination="7Bu-8o-p8r" collectionClass="NSMutableArray" id="n1Z-gf-7Aj"/>
                         <outletCollection property="buttonCollection" destination="Wqh-0o-2yV" collectionClass="NSMutableArray" id="aLd-28-bDk"/>
                         <outletCollection property="buttonCollection" destination="XNZ-NB-gcg" collectionClass="NSMutableArray" id="Pr9-fy-DUe"/>
                         <outletCollection property="buttonCollection" destination="fHJ-dX-Zo3" collectionClass="NSMutableArray" id="p45-rd-JVj"/>
+                        <outletCollection property="LabelUpCollection" destination="lG7-kb-5J2" collectionClass="NSMutableArray" id="zK9-zi-ZHc"/>
+                        <outletCollection property="LabelUpCollection" destination="Sf1-8w-6PM" collectionClass="NSMutableArray" id="fgy-u6-yHj"/>
+                        <outletCollection property="LabelUpCollection" destination="6v8-oi-m2X" collectionClass="NSMutableArray" id="pzS-c9-7f7"/>
+                        <outletCollection property="LabelUpCollection" destination="wRZ-rd-6N1" collectionClass="NSMutableArray" id="UKh-s9-5RE"/>
+                        <outletCollection property="LabelMiddleCollection" destination="DJj-47-MQe" collectionClass="NSMutableArray" id="Mfp-aq-uJG"/>
+                        <outletCollection property="LabelMiddleCollection" destination="fi7-7g-bNR" collectionClass="NSMutableArray" id="Byh-Eh-KUf"/>
+                        <outletCollection property="LabelMiddleCollection" destination="RO9-se-G8e" collectionClass="NSMutableArray" id="s2e-US-uZL"/>
+                        <outletCollection property="LabelMiddleCollection" destination="knM-Ee-zLd" collectionClass="NSMutableArray" id="ATU-ha-RgV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
